@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 @Component({ selector: 'app-root', standalone: true, imports: [CommonModule, FormsModule], templateUrl: './app.component.html' })
 export class AppComponent {
-  isLight = false;
+  isLight = true;
   menuOpen = false;
   activeSection = 'overview';
   contact = { name: '', email: '', message: '' };
